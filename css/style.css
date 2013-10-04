@@ -1,0 +1,374 @@
+
+
+/*-------------------------------------------
+ SET UP                  
+--------------------------------------------*/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+    clear: both;
+}
+
+.alignright {
+    float: right; 
+    padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+    float: left; 
+    padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+
+/*-------------------------------------------
+ MENU                  
+--------------------------------------------*/
+
+
+/* Visit http://www.menucool.com/horizontal/javascript-menu for source code and other menu CSS templates */
+
+#sse1
+{
+    /*You can decorate the menu's container, such as adding background images through this block*/
+    background-color: #000;
+    height: 38px;
+    padding: 15px 0px 40px;
+    border-radius: 3px;
+}
+#sses1
+{
+    margin:0 auto;/*This will make the menu center-aligned. Removing this line will make the menu align left.*/
+    width: 100%
+}
+#sses1 ul 
+{ 
+    position: relative;
+    list-style-type: none;
+    float:left;
+    padding:0;
+    margin:-50px;
+    border-bottom:solid 1px #000000;
+}
+#sses1 li
+{
+    float:left;
+    list-style-type: none;
+    padding:0;margin:0;background-image:none;
+}
+
+#sses1 ul li a
+{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.8em;
+}
+
+/*CSS for background bubble*/
+#sses1 li.highlight
+{
+    background-color:#0B0;
+    top:36px;
+    height:2px;
+    border-bottom:solid 1px #0C0;
+    z-index: 1;
+    position: absolute;
+    overflow:hidden;
+}
+#sses1 li a
+{
+    height:30px;
+    padding-top: 8px;
+    margin: 0 20px;/*used to adjust the distance between each menu item. Now the distance is 20+20=40px.*/
+    color: #fff;
+    font: normal 12px arial;
+    text-align: center;
+    text-decoration: none;
+    float: left;
+    display: block;
+    position: relative;
+    z-index: 2;
+}
+
+/*Initialize*/
+ul#menu, ul#menu ul.sub-menu {
+    padding:45px;
+    margin: 0;
+}
+ul#menu li, ul#menu ul.sub-menu li {
+    list-style-type: none;
+    display: inline-block;
+}
+/*Link Appearance*/
+ul#menu li a, ul#menu li ul.sub-menu li a {
+    text-decoration: none;
+    color: #fff;
+    background: black;
+    padding: 5px;
+    display:inline-block;
+}
+/*Make the parent of sub-menu relative*/
+ul#menu li {
+    position: relative;
+}
+/*sub menu*/
+ul#menu li ul.sub-menu {
+    display:none;
+    position: absolute;
+    top: 30px;
+    left: 0;
+    width: 100px;
+}
+ul#menu li:hover ul.sub-menu {
+    display:block;
+}
+
+
+
+nav ul li {
+	text-decoration: none;
+}
+
+nav ul li a:hover {
+	color: red;
+}
+
+nav h2 {
+    margin: -0px auto;
+    color: #090;
+    width: 200px;
+
+}
+
+/*----------------------------------------------------------------------------- 
+   SOCIAL MEDIA  
+-----------------------------------------------------------------------------*/
+
+
+
+#socialMedia {
+    float: right;
+}
+
+#socialMedia ul li {
+     display:inline-block;
+     width:60px;
+     height:60px;
+     background:blue;   
+     text-indent:-9999em;
+}
+
+#socialMedia ul li.linkedIn {
+    background:url(../images/socialNav.png) 0px 64px;
+}
+#socialMedia ul li.twitter {
+    background:url(../images/socialNav.png) -60px 64px; 
+}
+
+#socialMedia ul li.facebook {
+    background:url(../images/socialNav.png) -120px 64px; 
+}
+
+#socialMedia ul li.rss {
+    background:url(../images/socialNav.png) -180px 64px; 
+}
+
+
+
+#socialMedia ul li.linkedIn:hover {
+    background:url(../images/socialNav.png) 0px 0px; 
+}
+
+#socialMedia ul li.twitter:hover {
+    background:url(../images/socialNav.png) -60px 0px; 
+}
+
+#socialMedia ul li.facebook:hover {
+    background:url(../images/socialNav.png) -120px 0px; 
+}
+
+#socialMedia ul li.rss:hover {
+    background:url(../images/socialNav.png) -180px 0px; 
+}
+
+
+/*-------------------------------------------
+ HEADER                  
+--------------------------------------------*/
+
+header {
+    background-color: black;
+    position: fixed;
+    width: 100%;
+}
+
+#headerlogo {
+    width: 18%;
+    height: auto;
+    float: left;
+
+}
+
+
+/*-------------------------------------------
+ FOOTER
+ --------------------------------------------*/
+
+footer {
+    background-color: black;
+    color: #090;
+}
+
+#footercontent {
+    background-color: black;
+    width: 960px;
+}
+
+
+/*-------------------------------------------
+ BASE STYLES                   
+--------------------------------------------*/
+
+body {
+     color: #000;
+     font-size: 12px;
+     line-height: 1.4;
+     width: 100%;
+}
+
+h2 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.8em;
+    color: #090;
+}
+
+#home {
+    margin: -30px;
+}
+
+#content {
+    width: 960px;
+    margin: 0px auto;
+    background-color: #ddd;
+    color: #000;
+    font-family: 'Gudea', sans-serif;
+    font-size: 2em;
+}
+
+#musiccontent {
+    width: 960px;
+    margin: 0px auto;
+    background-color: #ddd;
+    color: #fff;
+    font-family: 'Gudea', sans-serif;
+    font-size: 2em;
+    padding: 2em 2em 2em 2em;
+}
+
+/*-------------------------------------------
+ MUSIC                   
+--------------------------------------------*/
+
+.music {
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    padding: 20px;
+}
+
+#music1  {
+    background:url(../images/albums.jpg) 0px -7px;
+     width:120px;
+     height:120px;
+}
+
+#music2  {
+    background:url(../images/albums.jpg) 0px -125px;
+     width:120px;
+     height:120px;
+}
+
+#music3  {
+    background:url(../images/albums.jpg) 0px -253px;
+     width:120px;
+     height:120px;
+}
+
+#music4 {
+    background: url(../images/albums.jpg) -29px -376px;
+    width: 99px;
+    height: 140px;
+}
+
+#music5 {
+    background: url(../images/albums.jpg) -140px 1px;
+    width: 120px;
+    height: 120px;
+}
+
+#music6 {
+    background: url(../images/albums.jpg) -161px -118px;
+    width: 258px;
+    height: 120px;
+}
+
+#music7 {
+    background: url(../images/albums.jpg) -161px -248px;
+    width: 258px;
+    height: 120px;
+}
+
+#music8 {
+    background: url(../images/albums.jpg) -161px -372px;
+    width: 258px;
+    height: 120px;
+}
+
+#music9 {
+    background: url(../images/albums.jpg) 128px 2px;
+    width: 120px;
+    height: 120px;
+}
+
+#music10 {
+    background: url(../images/albums.jpg) -445px -244px;
+    width: 120px;
+    height: 120px;
+}
+
+.musicall {
+    background-attachment: fixed;
+}
+
+.musicantoniolulic {
+    background: url(../images/antoniolulic.jpg);
+    background-size: 500px 500px;   
+    background-attachment: fixed;    
+}
+
+.musickallavelle {
+    background: url(../images/kallavelle.jpg);
+    background-size: 800 535;  
+    background-attachment: fixed;    
+}
+
+
+
+
+
+
