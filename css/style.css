@@ -274,6 +274,30 @@ h2 {
     clear: both;
 }
 
+
+/*-------------------------------------------
+ CONTACT                   
+--------------------------------------------*/
+
+#contactcontent {
+    width: 960px;
+    margin: 0px auto;
+    background-color: #333;
+    color: #fff;
+    font-family: 'Gudea', sans-serif;
+    font-size: 2em;
+    padding: 8em 2em 10em 2em;
+}
+
+#contactcontent input, textarea {
+    width: 100%;
+    clear: both;
+}
+
+/*-------------------------------------------
+ MUSIC                   
+--------------------------------------------*/
+
 #musiccontent {
     width: 960px;
     margin: 0px auto;
@@ -281,12 +305,9 @@ h2 {
     color: #fff;
     font-family: 'Gudea', sans-serif;
     font-size: 2em;
-    padding: 2em 2em 2em 2em;
+    padding: 8em 2em 10em 2em;
 }
 
-/*-------------------------------------------
- MUSIC                   
---------------------------------------------*/
 
 .music {
     float: left;
@@ -388,5 +409,5 @@ h2 {
     width: 50%;
     float: left;
     font-size: 0.8em;
-    padding: 0 20px 0px 00px; /* note the padding around a right floated image */
+    padding: 0px 20px 0px 0px; 
 }
