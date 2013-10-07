@@ -376,5 +376,5 @@ h2 {
     width: 50%;
     float: left;
     font-size: 0.8em;
-    padding: 0 20px 0px 20px; /* note the padding around a right floated image */
+    padding: 0 20px 0px 00px; /* note the padding around a right floated image */
 }
