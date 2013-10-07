@@ -356,6 +356,13 @@ h2 {
     height: 120px;
 }
 
+/* Kimberly Ann --------------------- */
+#music11 {
+    background: url(../images/albums.jpg) -4px 93px;
+    width: 190px;
+    height: 69px;
+}
+
 .musicall {
     background-attachment: fixed;
 }
@@ -369,8 +376,13 @@ h2 {
 .musickallavelle {
     background: url(../images/kallavelle.jpg);    
     background-attachment: fixed;
-
 }
+
+.musickimberlyanne {
+    background: url(../images/kimberlyanne.jpg);    
+    background-attachment: fixed;
+}
+
 
 .bio {
     width: 50%;
