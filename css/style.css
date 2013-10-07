@@ -329,24 +329,28 @@ h2 {
      height:120px;
 }
 
+/* Ilona --------------------- */
 #music3  {
     background:url(../images/albums.jpg) 0px -253px;
      width:120px;
      height:120px;
 }
 
+/* Ed Sheeran --------------------- */
 #music4 {
     background: url(../images/albums.jpg) -29px -376px;
     width: 99px;
     height: 140px;
 }
 
+/* Billy Lockett --------------------- */
 #music5 {
     background: url(../images/albums.jpg) -140px 1px;
     width: 120px;
     height: 120px;
 }
 
+/* Passenger --------------------- */
 #music6 {
     background: url(../images/albums.jpg) -161px -118px;
     width: 258px;
@@ -401,6 +405,11 @@ h2 {
 
 .musickimberlyanne {
     background: url(../images/kimberlyanne.jpg);    
+    background-attachment: fixed;
+}
+
+.musicpassenger {
+    background: url(../images/passenger.jpg);    
     background-attachment: fixed;
 }
 
