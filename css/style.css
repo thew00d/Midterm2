@@ -277,7 +277,7 @@ h2 {
 #musiccontent {
     width: 960px;
     margin: 0px auto;
-    background-color: #ddd;
+    background-color: #333;
     color: #fff;
     font-family: 'Gudea', sans-serif;
     font-size: 2em;
@@ -367,11 +367,14 @@ h2 {
 }
 
 .musickallavelle {
-    background: url(../images/kallavelle.jpg);
-    background-size: 800 535;  
-    background-attachment: fixed;    
+    background: url(../images/kallavelle.jpg);    
+    background-attachment: fixed;
+
 }
 
-
-
-
+.bio {
+    width: 50%;
+    float: left;
+    font-size: 0.8em;
+    padding: 0 20px 0px 20px; /* note the padding around a right floated image */
+}
