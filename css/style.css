@@ -310,6 +310,7 @@ h2 {
 
 #musiccontent {
     width: 960px;
+    height: 3000px;
     margin: 0px auto;
     background-color: #333;
     color: #fff;
@@ -441,7 +442,7 @@ h2 {
 @media only screen and (max-width : 320px) {
 /* Styles */
     h1 {
-        /*background-color: pink;*/
+        background-color: pink;
     }
 
     #headerlogo {
@@ -475,6 +476,7 @@ h2 {
     #musiccontent {
         margin: 0px 0px 0px -30px;
         width: 100%;
+        height: auto;
     }
 
     .bio {
@@ -490,7 +492,7 @@ h2 {
 @media only screen and (min-width : 321px) {
 /* Styles */
     h1 {
-        /*background-color: yellow;*/
+        background-color: yellow;
     }
 
     #content {
@@ -506,9 +508,8 @@ h2 {
     }
 
     #headerlogo {
-        min-height: 20px;
-        max-height: 50px;
-        min-width: auto;
+        height: 50px;
+        width: 120px;
     }
 
     #sses1 {
@@ -523,25 +524,41 @@ h2 {
         width: 80%;
     }
 
+    #musiccontent {
+        height: auto;
+    }
+
     .bio {
-        float: left;
-    }    
+        float: none;
+        width: 100%;
+    }         
 }
 
 /* Smartphones (landscape) ----------- */
 @media only screen and (min-width : 670px) {
 /* Styles */
     h1 {
-        /*background-color: orange;*/
+        background-color: orange;
     }
 
-    #contactcontent {
+    #contactcontent, #musiccontent {
         width: 60%;
     }   
 
+    #musiccontent {
+        height: auto;
+    }
+
     .bio {
-        float: left;
-    }         
+        float: none;
+        width: 100%;
+    }  
+
+    #headerlogo {
+        min-height: 50px;
+        max-height: 80px;
+        width: auto;
+    }
 
 }
 
@@ -549,7 +566,7 @@ h2 {
 @media only screen and (min-width : 1224px) {
 /* Styles */
     h1 {
-        /*background-color: blue;*/
+        background-color: blue;
     }
 
     #content {
@@ -558,14 +575,21 @@ h2 {
 
     .bio {
         float: left;
-    }        
+        width: 35%;
+    }   
+
+    #headerlogo {
+        min-height: 20px;
+        max-height: 120px;
+        max-width: 200px;
+    }         
 }
 
 /* Large screens ----------- */
 @media only screen and (min-width : 1824px) {
 /* Styles */
     h1 {
-        /*background-color: white;*/
+        background-color: white;
     }
 }
 
